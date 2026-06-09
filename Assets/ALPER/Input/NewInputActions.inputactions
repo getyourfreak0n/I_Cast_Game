@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "NewInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "85b10cf7-eb8f-4107-9e7b-88086bb63e83",
+            "actions": [
+                {
+                    "name": "Tap/Hold",
+                    "type": "Button",
+                    "id": "d2a02d8b-408a-4773-a540-456d35c14b85",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "15583e19-c8d1-499d-a674-59ad2d70fa36",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Tap,Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap/Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
