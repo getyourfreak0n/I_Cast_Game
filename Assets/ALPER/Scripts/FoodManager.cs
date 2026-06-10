@@ -44,7 +44,7 @@ public class FoodManager : MonoBehaviour
                     destinationVector = CellToWorldConversion(movePoints[i]);
 
                     StartCoroutine(item.MoveTo(destinationVector));
-                    Debug.Log(item.ToString());
+                    //Debug.Log(item.ToString());
 
                     yield return new WaitForSeconds(waitingTime);
 
@@ -53,7 +53,7 @@ public class FoodManager : MonoBehaviour
 
                 yield return new WaitForSeconds(1f);
 
-                Debug.Log("hello mom");
+                //Debug.Log("hello mom");
 
             }
         }
