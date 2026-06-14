@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -38,6 +38,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: table
+    uniqueID: 1332738513
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: costumer
+    uniqueID: 577403065
+    locked: 0
+  - name: boat
+    uniqueID: 1299620515
+    locked: 0
+  - name: sushi_wheel
+    uniqueID: 2891701701
+    locked: 0
+  - name: menu
+    uniqueID: 1346823611
+    locked: 0
+  - name: sushi
+    uniqueID: 3115718747
+    locked: 0
+  m_RenderingLayers:
+  - Default
